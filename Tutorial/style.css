@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    /* border: none; */
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/6a/a3/7f/6aa37fd0017bdb291ca8cbdd8b0ede52.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    color: #fff;
+    background-image: url("https://64.media.tumblr.com/f06f71a973fdce31b1a05bbc60ce20c3/18eb68256cf85b43-67/s540x810/e19ac4aaedf8489a1b520b457b9d007101ef6a9a.gif");
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.233);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hot {
+    background-image: url(https://photo.coolenjoy.co.kr/SWFUpload/resizedemo/saved/m__12f9ae586e4a2a2543b7b1cc7f74236557163__m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.hot .container {
+    color: #fff;
+    background-image: url('https://i.pinimg.com/originals/2e/54/b9/2e54b95ee5ab251503a810308564c50e.gif');
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.233);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cold {
+    background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2014/02/20/261735/4ee53334fe6663f2122e062cbcc623ba-700.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    widows: 100%;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cold .container {
+    color: #fff;
+    background-image: url('https://i.pinimg.com/originals/db/c4/e4/dbc4e406ee31d36f5c0713124f3d7c2b.gif');
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.233);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.warm {
+    background-image: url('https://i.pinimg.com/564x/da/b2/75/dab275bd9244ae437d5ae6fa51cd5696.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    widows: 100%;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.warm .container {
+    color: #fff;
+    background-image: url('https://i.pinimg.com/originals/6a/40/23/6a4023908cc6c2cc56d593d6979bafe9.gif');
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.233);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.search-bar {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+
+.search-icon {
+    margin-right: 5px;
+    position: absolute;
+    left: 0;
+}
+
+#search-input {
+    border: 0;
+    outline: 0;
+    padding: 3px 3px 3px 20px;
+    background: transparent;
+    height: 20px;
+    color: #fff;
+
+}
+
+#search-input::placeholder {
+    color: rgb(206, 206,206);
+}
+
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    padding: 80px 50px;
+    margin-bottom: 30px;
+}
+
+.totoro {
+    margin-bottom: 28px;
+}
+
+.city-name {
+    font-size: 26px;
+    margin-bottom: 3px;
+}
+
+.weather-state {
+    font-size: 13px;
+}
+
+.weather-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.temperature {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1;
+    position: relative;
+}
+
+.temperature::after {
+    content: 'o';
+    position: absolute;
+    font-size: 23px;
+}
+
+
+.additional-section {
+    border-top: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+.additional-section .row {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
